@@ -19,7 +19,7 @@ Adicione o RxLib ao seu projeto Lazarus.
 Após a configuração, você pode executar o Programa Aves. Ele irá se conectar ao banco de dados Oracle e permitirá a geração de relatórios usando Fast Report e Fortes Report. Os dados podem ser manipulados em memória usando o componente RxMemoryData.
 
 # Links
-https://www.lazarus-ide.org/index.php?page=downloads
-https://www.oracle.com/br/downloads
-https://www.fast-report.com/pt/download/fast-report-net/
-https://github.com/fortesinformatica/fortesreport-ce
+- https://www.lazarus-ide.org/index.php?page=downloads
+- https://www.oracle.com/br/downloads
+- https://www.fast-report.com/pt/download/fast-report-net/
+- https://github.com/fortesinformatica/fortesreport-ce

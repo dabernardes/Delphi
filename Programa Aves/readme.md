@@ -3,11 +3,11 @@
 O Programa Aves é uma aplicação desenvolvida em Object Pascal utilizando o ambiente de desenvolvimento integrado Lazarus. Ele se conecta a um banco de dados Oracle e gera relatórios usando Fast Report e Fortes Report. Além disso, utiliza o componente RxMemoryData para manipulação de dados em memória.
 
 # Requisitos
-Lazarus
-Oracle Database
-Fast Report
-Fortes Report
-RxLib
+-Lazarus
+-Oracle Database
+-Fast Report
+-Fortes Report
+-RxLib
 
 # Configuração
 Instale o Lazarus a partir do site oficial.

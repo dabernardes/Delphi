@@ -1,0 +1,273 @@
+object Form1: TForm1
+  Left = 244
+  Height = 434
+  Top = 33
+  Width = 658
+  Caption = 'Form1'
+  ClientHeight = 434
+  ClientWidth = 658
+  DesignTimePPI = 120
+  object BtnResultado: TButton
+    Left = 512
+    Height = 31
+    Top = 43
+    Width = 94
+    Caption = 'Calcular'
+    OnClick = BtnResultadoClick
+    TabOrder = 0
+  end
+  object edtValor2: TEdit
+    Left = 248
+    Height = 28
+    Top = 48
+    Width = 100
+    TabOrder = 1
+  end
+  object edtValor1: TEdit
+    Left = 112
+    Height = 28
+    Top = 48
+    Width = 100
+    TabOrder = 2
+  end
+  object edtValor3: TEdit
+    Left = 368
+    Height = 28
+    Top = 48
+    Width = 100
+    TabOrder = 3
+  end
+  object lblSoma: TLabel
+    Left = 232
+    Height = 18
+    Top = 56
+    Width = 8
+    Caption = '+'
+    Font.CharSet = ANSI_CHARSET
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblIgual: TLabel
+    Left = 352
+    Height = 18
+    Top = 56
+    Width = 8
+    Caption = '='
+    Font.CharSet = ANSI_CHARSET
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lalValor1: TLabel
+    Left = 120
+    Height = 18
+    Top = 24
+    Width = 57
+    Caption = 'Valor 1'
+    Font.CharSet = ANSI_CHARSET
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblValor2: TLabel
+    Left = 256
+    Height = 18
+    Top = 24
+    Width = 58
+    Caption = 'Valor 2'
+    Font.CharSet = ANSI_CHARSET
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblResustado: TLabel
+    Left = 368
+    Height = 18
+    Top = 24
+    Width = 86
+    Caption = 'Resultado'
+    Font.CharSet = ANSI_CHARSET
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Btncalcular2: TButton
+    Left = 512
+    Height = 31
+    Top = 112
+    Width = 94
+    Caption = 'Calcular'
+    OnClick = Btncalcular2Click
+    TabOrder = 4
+  end
+  object EdtValorSub1: TEdit
+    Left = 112
+    Height = 28
+    Top = 115
+    Width = 100
+    TabOrder = 5
+  end
+  object EdtValorSub2: TEdit
+    Left = 252
+    Height = 28
+    Top = 115
+    Width = 100
+    TabOrder = 6
+  end
+  object EdtValorsubResu: TEdit
+    Left = 368
+    Height = 28
+    Top = 115
+    Width = 100
+    TabOrder = 7
+  end
+  object Label1: TLabel
+    Left = 224
+    Height = 18
+    Top = 112
+    Width = 6
+    Caption = '-'
+    Font.CharSet = ANSI_CHARSET
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 353
+    Height = 18
+    Top = 115
+    Width = 8
+    Caption = '='
+    Font.CharSet = ANSI_CHARSET
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Btncalcular3: TButton
+    Left = 512
+    Height = 31
+    Top = 152
+    Width = 94
+    Caption = 'Calcular'
+    OnClick = Btncalcular3Click
+    TabOrder = 8
+  end
+  object Btncalcular4: TButton
+    Left = 512
+    Height = 31
+    Top = 192
+    Width = 94
+    Caption = 'Calcular'
+    OnClick = Btncalcular4Click
+    TabOrder = 9
+  end
+  object EdtValormult1: TEdit
+    Left = 112
+    Height = 28
+    Top = 152
+    Width = 100
+    TabOrder = 10
+  end
+  object EdtValormul2: TEdit
+    Left = 252
+    Height = 28
+    Top = 152
+    Width = 100
+    TabOrder = 11
+  end
+  object EdtValormultresu: TEdit
+    Left = 368
+    Height = 28
+    Top = 152
+    Width = 100
+    TabOrder = 12
+  end
+  object Label3: TLabel
+    Left = 353
+    Height = 18
+    Top = 160
+    Width = 8
+    Caption = '='
+    Font.CharSet = ANSI_CHARSET
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 224
+    Height = 18
+    Top = 160
+    Width = 7
+    Caption = '*'
+    Font.CharSet = ANSI_CHARSET
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object EdtValorDiv1: TEdit
+    Left = 112
+    Height = 28
+    Top = 192
+    Width = 100
+    TabOrder = 13
+  end
+  object EdtValorDv2: TEdit
+    Left = 252
+    Height = 28
+    Top = 192
+    Width = 100
+    TabOrder = 14
+  end
+  object EdtdivRes: TEdit
+    Left = 368
+    Height = 28
+    Top = 192
+    Width = 100
+    TabOrder = 15
+  end
+  object Label5: TLabel
+    Left = 353
+    Height = 18
+    Top = 196
+    Width = 8
+    Caption = '='
+    Font.CharSet = ANSI_CHARSET
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 228
+    Height = 18
+    Top = 196
+    Width = 6
+    Caption = '/'
+    Font.CharSet = ANSI_CHARSET
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+end
